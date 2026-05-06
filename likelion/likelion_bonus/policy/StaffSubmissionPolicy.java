@@ -1,4 +1,4 @@
-package likelion_w4.policy;
+package likelion.likelion_bonus.policy;
 
 public class StaffSubmissionPolicy implements SubmissionPolicy {
     private int generation;

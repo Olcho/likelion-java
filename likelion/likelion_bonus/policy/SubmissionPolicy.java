@@ -1,4 +1,4 @@
-package likelion_w4;
+package likelion.likelion_bonus.policy;
 
 public interface SubmissionPolicy {
     boolean canSubmit();

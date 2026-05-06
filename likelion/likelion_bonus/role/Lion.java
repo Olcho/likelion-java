@@ -1,7 +1,6 @@
-package likelion_w4.role;
+package likelion.likelion_bonus.role;
 
-import likelion_w4.policy.LionSubmissionPolicy;
-import likelion_w4.policy.SubmissionPolicy;
+import likelion.likelion_bonus.policy.*;
 
 public class Lion extends Role {
     private String studentId;
@@ -23,12 +22,6 @@ public class Lion extends Role {
 
     @Override
     public String getInfo() {
-        return "역할: " + getRoleName()
-                + "\n이름: " + getName()
-                + "\n전공: " + getMajor()
-                + "\n기수: " + getGeneration()
-                + "\n파트: " + getPart()
-                + "\n학번: " + studentId
-                + "\n과제 제출 가능 여부: " + (getPolicy().canSubmit() ? "가능" : "불가능");
+        return getName() + " (" + getGeneration() + "기)";
     }
 }

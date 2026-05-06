@@ -1,6 +1,7 @@
 package likelion_w4_bonus.role;
 
-import likelion_w4_bonus.policy.*;
+import likelion_w4_bonus.policy.StaffSubmissionPolicy;
+import likelion_w4_bonus.policy.SubmissionPolicy;
 
 public class Staff extends Role {
     private String position;
@@ -22,6 +23,12 @@ public class Staff extends Role {
 
     @Override
     public String getInfo() {
-        return getName() + " (" + getGeneration() + "기)";
+        return "역할: " + getRoleName()
+                + "\n이름: " + getName()
+                + "\n전공: " + getMajor()
+                + "\n기수: " + getGeneration()
+                + "\n파트: " + getPart()
+                + "\n직책: " + position
+                + "\n과제 제출 가능 여부: " + (getPolicy().canSubmit() ? "가능" : "불가능");
     }
 }

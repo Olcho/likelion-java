@@ -1,8 +1,6 @@
-package likelion_w4;
+package likelion.likelion_bonus.role;
 
-package likelion_w4.role;
-
-import likelion_w4.policy.SubmissionPolicy;
+import likelion.likelion_bonus.policy.SubmissionPolicy;
 
 public abstract class Role {
     private String name;
@@ -17,25 +15,12 @@ public abstract class Role {
         this.part = part;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getMajor() {
-        return major;
-    }
-
-    public int getGeneration() {
-        return generation;
-    }
-
-    public String getPart() {
-        return part;
-    }
+    public String getName() { return name; }
+    public String getMajor() { return major; }
+    public int getGeneration() { return generation; }
+    public String getPart() { return part; }
 
     public abstract SubmissionPolicy getPolicy();
-
     public abstract String getRoleName();
-
     public abstract String getInfo();
 }
