@@ -1,4 +1,4 @@
-package likelion_w4.role;
+package likelion_w4;
 
 import likelion_w4.policy.LionSubmissionPolicy;
 import likelion_w4.policy.SubmissionPolicy;

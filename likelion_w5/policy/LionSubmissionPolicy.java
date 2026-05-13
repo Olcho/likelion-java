@@ -1,4 +1,4 @@
-package likelion_w4;
+package policy;
 
 public class LionSubmissionPolicy implements SubmissionPolicy {
     private int generation;

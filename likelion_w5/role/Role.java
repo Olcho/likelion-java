@@ -1,12 +1,13 @@
-package likelion_w4;
+package role;
 
-import likelion_w4.policy.SubmissionPolicy;
+import policy.SubmissionPolicy;
 
 public abstract class Role {
-    private String name;
-    private String major;
-    private int generation;
-    private String part;
+    protected String name;
+    protected String major;
+    protected int generation;
+    protected String part;
+    protected SubmissionPolicy submissionPolicy;
 
     public Role(String name, String major, int generation, String part) {
         this.name = name;
@@ -31,9 +32,9 @@ public abstract class Role {
         return part;
     }
 
-    public abstract SubmissionPolicy getPolicy();
+    public boolean canSubmit() {
+        return submissionPolicy.canSubmit();
+    }
 
-    public abstract String getRoleName();
-
-    public abstract String getInfo();
+    public abstract void printInfo();
 }

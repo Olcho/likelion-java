@@ -1,7 +1,5 @@
 package likelion_w4;
 
-package likelion_w4.role;
-
 import likelion_w4.policy.StaffSubmissionPolicy;
 import likelion_w4.policy.SubmissionPolicy;
 
