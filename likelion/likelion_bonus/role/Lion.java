@@ -1,4 +1,8 @@
+<<<<<<< HEAD:likelion/likelion_bonus/role/Lion.java
 package likelion.likelion_bonus.role;
+=======
+package likelion_w4;
+>>>>>>> 80a3145b3d5281ef93a376e292f06a2063b4d087:likelion_w4/Lion.java
 
 import likelion.likelion_bonus.policy.*;
 

@@ -1,6 +1,10 @@
 package likelion.likelion_bonus.role;
 
+<<<<<<< HEAD:likelion/likelion_bonus/role/Role.java
 import likelion.likelion_bonus.policy.SubmissionPolicy;
+=======
+import likelion_w4.policy.SubmissionPolicy;
+>>>>>>> 80a3145b3d5281ef93a376e292f06a2063b4d087:likelion_w4/Role.java
 
 public abstract class Role {
     private String name;
