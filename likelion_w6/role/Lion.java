@@ -1,7 +1,7 @@
-package class5.role;
+package likelion_w6.role;
 
-import class5.policy.LionSubmissionPolicy;
-import class5.policy.SubmissionPolicy;
+import likelion_w6.policy.LionSubmissionPolicy;
+import likelion_w6.policy.SubmissionPolicy;
 
 public class Lion extends Role {
     private String studentId;

@@ -1,4 +1,4 @@
-package class5.policy;
+package likelion_w6.policy;
 
 public class StaffSubmissionPolicy implements SubmissionPolicy {
 
